@@ -1,12 +1,13 @@
 import './App.css';
 import Nav from './Nav';
-import Home from './Home';
-import About from './About';
-import Service from './Service';
-import Contact from './Contact';
-import Contribution from './Contribution';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Service from './Pages/Service';
+import Contact from './Pages/Contact';
+import Contribution from './Pages/Contribution';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { formik, form, Field, ErrorMessage } from "formik";
+import PageNotFound from './Pages/PageNotFound';
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <Route path="/About" component={About} />
       <Route path="/Service" component={Service} />
       <Route path="/Contact" component={Contact} />
-      <Route path="/Contribution" component={Contribution} />
-      <Route path="/"  component={Home} />
+      <Route path="/Contribution"  component={Contribution} />
+      <Route path="/" exact component={Home} />
+      <Route component= {PageNotFound} exact/>
       </Switch>
       </div>
     </Router>
