@@ -5,22 +5,21 @@ import { Link } from 'react-router-dom';
 function Nav() {
     return(
       <nav>
+        <Link to="/">
         <h3 className="h3">Wikipedia v2</h3>
+        </Link>
         <ul className="nav-links">
-          <Link to="/">
-          <li>Home</li>
-          </Link>
           <Link to="/about">
           <li>About</li>
-          </Link>
-          <Link to="/Service">
-          <li>Service</li>
           </Link>
           <Link to="/Contact">
           <li>Contact</li>
           </Link>
-          <Link to="/Contribution">
-          <li>Contribution</li>
+          <Link to="/Login">
+            <li>Login</li>
+          </Link>
+          <Link to="/SignUp">
+            <li>Sign Up</li>
           </Link>
         </ul>
       </nav>
