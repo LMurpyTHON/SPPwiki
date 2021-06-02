@@ -15,11 +15,14 @@ function Nav() {
           <Link to="/Contact">
           <li>Contact</li>
           </Link>
+          <Link to="/SignUp">
+            <li>Sign Up</li>
+          </Link>
           <Link to="/Login">
             <li>Login</li>
           </Link>
-          <Link to="/SignUp">
-            <li>Sign Up</li>
+          <Link to="/Read">
+          <li>Read</li>
           </Link>
         </ul>
       </nav>

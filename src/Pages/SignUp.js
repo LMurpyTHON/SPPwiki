@@ -18,10 +18,7 @@ export default function SignUp() {
                 <div class="inputs">
                     <input type="email" placeholder="E-mail" autofocus required />
                     <input type="password" placeholder="Password" required />
-                    <div class="checkboxy">
-                        <input name="cecky" id="checky" value="1" type="checkbox" required /><label class="terms">I accept the terms of use</label>
-                    </div>
-                    <Button type="submit" id="submit">SIGN UP</Button>
+                    <Button type="submit" id="submit" onClick={SignUp}>SIGN UP</Button>
                 </div>
             </form>
         </div>
