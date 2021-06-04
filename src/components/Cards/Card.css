@@ -1,0 +1,68 @@
+.Card { 
+  width: 300px;
+  height: 480px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 1px black;
+  margin-top: 5%;
+}
+
+.upper-container { 
+  height: 100px;
+  background: linear-gradient(to left, #77d6e0, #13818d );
+}
+
+.lower-container { 
+  width: auto;
+  height: 300px;
+  background: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+.image-container .img{ 
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translate(0px, 45px);
+}
+
+.img { 
+  border: 2px solid #13818d;
+}
+
+.button {
+  margin: 1rem;
+  margin-top: 0;
+  color: black;
+  font: bold;
+  background-color: white;
+  border: 2px solid #13818d;
+  padding: 0.6rem;
+  border-radius: 6px;
+  transition-duration: 0.6s;
+  animation: ease-in-out;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button:hover  {
+  margin: 1rem;
+  margin-top: 0;
+  color: white;
+  font: bold;
+  background-color: #13818d ;
+  border: 2px solid white;
+  padding: 0.6rem;
+  border-radius: 6px;
+  transition-duration: 0.6s;
+  animation: ease-in-out;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Ps { 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+

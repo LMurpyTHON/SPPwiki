@@ -444,7 +444,7 @@ textarea.txtare {
   height: 120px;
   font-weight: 900;
 }
-input[type="email"] {
+input {
   font-size: 130%;
   background: #c7dbde;
   border: 0px;
@@ -627,4 +627,12 @@ p.abtw3 {
 .img12{
 -webkit-transform: scaleX(-1);
 transform: scaleX(-1);
+border: none;
+margin: 2%;
+}
+
+.Read { 
+  width: auto;
+  display: flex;
+  justify-content: space-around;
 }
